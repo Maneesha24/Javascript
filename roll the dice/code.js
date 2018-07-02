@@ -46,7 +46,7 @@ document.querySelector('.hold').addEventListener('click', function () {
     if(scores[activeplayer]>=100){
         var winner = document.querySelector('#heading-'+activeplayer);
         winner.textContent = 'WINNER..!';
-        winner.style.color = '#bf266b';
+        winner.style.color = 'red';
         document.querySelector('#heading-'+activeplayer).classList.remove('.active');
         gameplay = false;
         }
